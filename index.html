@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Centro Cultural Amador Ballumbrosio</title>
+  <meta name="description" content="Centro Cultural Amador Ballumbrosio — eventos, talleres, gastronomía y cultura afroperuana." />
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="" crossorigin="anonymous" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Fav icon simple -->
+  <link rel="icon" href="assets/favicon.png" />
+</head>
+<body>
+
+  <header class="site-header" id="home">
+    <nav class="nav container">
+      <a class="brand" href="#home">Amador Ballumbrosio</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú"><i class="fa fa-bars"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#events">Eventos</a></li>
+        <li><a href="#workshops">Talleres</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li class="cta"><a href="#reservar" class="btn">Reservar</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Centro Cultural <span>Amador Ballumbrosio</span></h1>
+        <p>Preservamos y compartimos la riqueza de la cultura afroperuana. Talleres, eventos, gastronomía y experiencias auténticas en El Carmen — Chincha.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#events">Ver Eventos</a>
+          <a class="btn" href="https://wa.me/51997575306?text=Hola%20Centro%20Cultural%20Amador%20Ballumbrosio%2C%20quiero%20hacer%20una%20reserva." target="_blank" rel="noopener">Reservar por WhatsApp</a>
+        </div>
+
+        <div class="social-compact">
+          <a href="https://www.facebook.com/share/16FirTJyhV/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/centroculturalamador?igsh=MTBxbm1zeWtjYTB2Mw==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@ccamador_ballumbrosio" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image" aria-hidden="true">
+        <!-- Reemplaza assets/cover.jpg por la foto que subiste -->
+        <img src="assets/cover.jpg" alt="Portada Centro Cultural Amador Ballumbrosio" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- SOBRE -->
+    <section id="about" class="container section">
+      <h2>Sobre el Centro</h2>
+      <div class="grid about-grid">
+        <div>
+          <p>El Centro Cultural Amador Ballumbrosio es un espacio dedicado a la difusión de la cultura afroperuana: música, danza, gastronomía y talleres participativos. Acogemos visitantes, grupos escolares, peñas y turistas interesados en experiencias vivenciales.</p>
+          <ul>
+            <li><strong>Ubicación:</strong> El Carmen, Chincha</li>
+            <li><strong>Actividades:</strong> Talleres, presentaciones, peñas, visitas guiadas</li>
+            <li><strong>Reservas y pedidos:</strong> Vía WhatsApp</li>
+          </ul>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <i class="fa fa-music"></i>
+            <h3>Presentaciones</h3>
+            <p>Música y danza en vivo: festejo, cajón y zapateo.</p>
+          </div>
+          <div class="card">
+            <i class="fa fa-hands-helping"></i>
+            <h3>Talleres</h3>
+            <p>Talleres participativos para niños y adultos.</p>
+          </div>
+          <div class="card">
+            <i class="fa fa-utensils"></i>
+            <h3>Gastronomía</h3>
+            <p>Comidas y bebidas típicas (reserva previa recomendado).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTOS -->
+    <section id="events" class="section">
+      <div class="container">
+        <h2>Eventos y calendario</h2>
+        <p>Consulta nuestras próximas actividades. Para reservar un cupo en un evento, usa el botón de WhatsApp.</p>
+
+        <!-- Calendario simple: eventos estáticos -->
+        <div class="events-grid">
+          <article class="event">
+            <h3>Peña cultural - Zapateo</h3>
+            <time datetime="2025-12-15">15 Dic 2025</time>
+            <p>Presentación en vivo de música afroperuana y comida típica.</p>
+            <a class="btn-sm" href="https://wa.me/51997575306?text=Hola%2C%20quiero%20reservar%20entrada%20para%20la%20Pe%C3%B1a%20el%2015%20de%20diciembre." target="_blank">Reservar por WhatsApp</a>
+          </article>
+
+          <article class="event">
+            <h3>Taller: Cajón peruano</h3>
+            <time datetime="2025-12-20">20 Dic 2025</time>
+            <p>Taller práctico de cajón — principios y técnica básica.</p>
+            <a class="btn-sm" href="https://wa.me/51997575306?text=Hola%20quiero%20inscribirme%20al%20taller%20de%20Caj%C3%B3n%20el%2020%20de%20diciembre." target="_blank">Inscribirme</a>
+          </article>
+
+          <article class="event">
+            <h3>Visita guiada + degustación</h3>
+            <time datetime="2025-12-27">27 Dic 2025</time>
+            <p>Recorrido por el centro cultural y degustación de platos locales.</p>
+            <a class="btn-sm" href="https://wa.me/51997575306?text=Hola%20quiero%20hacer%20una%20reserva%20para%20la%20visita%20guiada%20del%2027%20de%20diciembre." target="_blank">Reservar</a>
+          </article>
+        </div>
+
+        <p class="note">¿Tienes otro evento? Contáctanos para coordinar.</p>
+      </div>
+    </section>
+
+    <!-- TALLERES / RESERVAS -->
+    <section id="workshops" class="container section">
+      <h2>Talleres y reservas</h2>
+      <p>Elige un taller y confirma tu asistencia por WhatsApp. También usamos WhatsApp para coordinar mesas y pedidos.</p>
+
+      <div class="reserve-grid">
+        <div class="reserve-card">
+          <h3>Taller infantil (2 horas)</h3>
+          <p>Actividad para niños: percusión y danza.</p>
+          <a class="btn" href="https://wa.me/51997575306?text=Hola%20quiero%20reservar%20un%20lugar%20para%20el%20Taller%20Infantil.%20%20Nombre%20y%20cantidad%20de%20personas:" target="_blank">Reservar por WhatsApp</a>
+        </div>
+
+        <div class="reserve-card">
+          <h3>Taller adultos (3 horas)</h3>
+          <p>Aprende a tocar cajón y técnicas de zapateo.</p>
+          <a class="btn" href="https://wa.me/51997575306?text=Hola%20quiero%20inscribirme%20al%20Taller%20de%20Adultos.%20%20Nombre%20y%20cantidad%20de%20personas:" target="_blank">Reservar por WhatsApp</a>
+        </div>
+
+        <div class="reserve-card">
+          <h3>Reserva mesa / restaurante</h3>
+          <p>Haz tu reserva de mesa o pide delivery de platos típicos.</p>
+          <a class="btn" href="https://wa.me/51997575306?text=Hola%20quiero%20reservar%20una%20mesa%20para%20%20fecha%3A%20%20hora%3A%20%20personas%3A" target="_blank">Reservar mesa</a>
+        </div>
+      </div>
+
+      <aside id="reservar" class="help">
+        <strong>Tip:</strong> WhatsApp se usa para coordinar pagos, anticipos y detalles del pedido/reserva.
+      </aside>
+    </section>
+
+    <!-- MENÚ / PEDIDOS -->
+    <section id="menu" class="section">
+      <div class="container">
+        <h2>Menú — Platos destacados</h2>
+        <p>Consulta algunos platos y pide por WhatsApp.</p>
+
+        <div class="menu-grid">
+          <div class="menu-item">
+            <h4>Carapulcra con sopa seca</h4>
+            <p>Plato tradicional de Chincha.</p>
+            <a href="https://wa.me/51997575306?text=Hola%20quiero%20pedir%20una%20porci%C3%B3n%20de%20Carapulcra%20con%20Sopa%20Seca.%20Detalle%20de%20env%C3%ADo%3A" target="_blank" class="btn-sm">Pedir por WhatsApp</a>
+          </div>
+          <div class="menu-item">
+            <h4>Tamal</h4>
+            <p>Tamal tradicional preparado en casa.</p>
+            <a href="https://wa.me/51997575306?text=Hola%20quiero%20pedir%20un%20tamal.%20Detalle%3A" target="_blank" class="btn-sm">Pedir</a>
+          </div>
+          <div class="menu-item">
+            <h4>Degustación local</h4>
+            <p>Tabla con porciones para compartir.</p>
+            <a href="https://wa.me/51997575306?text=Hola%20quiero%20reservar%20la%20degustaci%C3%B3n%20local%20para%20%20personas%3A" target="_blank" class="btn-sm">Reservar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="gallery" class="container section">
+      <h2>Galería</h2>
+      <p>Fotos y videos del centro (también puedes ver nuestro Instagram).</p>
+
+      <div class="gallery-grid">
+        <img src="assets/gallery1.jpg" alt="Foto 1 Centro Cultural" />
+        <img src="assets/gallery2.jpg" alt="Foto 2 Centro Cultural" />
+        <img src="assets/gallery3.jpg" alt="Foto 3 Centro Cultural" />
+        <img src="assets/gallery4.jpg" alt="Foto 4 Centro Cultural" />
+      </div>
+
+      <p class="small">¿Quieres ver más? <a href="https://www.instagram.com/centroculturalamador?igsh=MTBxbm1zeWtjYTB2Mw==" target="_blank">Visita nuestro Instagram</a></p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contacto</h2>
+        <div class="contact-grid">
+          <div>
+            <h3>Datos</h3>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/51997575306" target="_blank">+51 997 575 306</a></p>
+            <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/16FirTJyhV/?mibextid=wwXIfr" target="_blank">/share/16FirTJyhV</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/centroculturalamador?igsh=MTBxbm1zeWtjYTB2Mw==" target="_blank">@centroculturalamador</a></p>
+            <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@ccamador_ballumbrosio" target="_blank">@ccamador_ballumbrosio</a></p>
+            <p><strong>Dirección:</strong> El Carmen, Chincha (añade dirección exacta si deseas)</p>
+
+            <div class="social">
+              <a href="https://www.facebook.com/share/16FirTJyhV/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+              <a href="https://www.instagram.com/centroculturalamador?igsh=MTBxbm1zeWtjYTB2Mw==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+              <a href="https://www.tiktok.com/@ccamador_ballumbrosio" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+            </div>
+          </div>
+
+          <div>
+            <h3>Encuéntranos</h3>
+            <!-- Cambia el link de Google Maps por la ubicación exacta -->
+            <iframe title="mapa" src="https://www.google.com/maps?q=El%20Carmen%20Chincha&output=embed" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Centro Cultural Amador Ballumbrosio</h4>
+        <p>Difundiendo la cultura afroperuana • El Carmen, Chincha</p>
+      </div>
+      <div class="footer-actions">
+        <a class="btn-footer" href="https://wa.me/51997575306">WhatsApp</a>
+        <a class="btn-footer" href="https://www.instagram.com/centroculturalamador?igsh=MTBxbm1zeWtjYTB2Mw==" target="_blank">Instagram</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <small>&copy; <span id="year"></span> Centro Cultural Amador Ballumbrosio</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
